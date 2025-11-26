@@ -241,17 +241,22 @@ ul {
     gap: 250px;
     width: 950px;
 }
+
 .caixa-texto-2 {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 250px;
     width: 1000px;
 
 }
 
 .texto-5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+display: block;
+flex-direction: column;
+justify-items: center;    
+  
+   
 
 }
 
@@ -262,9 +267,20 @@ ul {
 .texto-6 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
+    padding: 25px;
 }
 
 .texto-6 {
+    color: #ffffff;
+}
+
+.texto-5 {
+    width: 800px;
+    background-color: #333333;
+    padding: 25px;
+}
+
+.texto-5 {
     color: #ffffff;
 }
